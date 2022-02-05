@@ -100,7 +100,7 @@ int main() {
     insertAtTail(head,6);
     insertAtTail(head,7);
     makeCycle(head,1);
-    cout<<detectCycle(head)<<endl;
+    cout<<detectCycle(head)<<endl;  
     removeCycle(head);
     cout<<detectCycle(head)<<endl;
     display(head);
